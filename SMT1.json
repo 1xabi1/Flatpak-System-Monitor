@@ -1,0 +1,20 @@
+{
+  "app-id": "com.example.sysmon",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "24.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "sysmon",
+  "modules": [
+    {
+      "name": "SystemMonitor",
+      "buildsystem": "simple",
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/1xabi1/Flatpak-System-Monitor.git",
+          "branch": "master"
+        }
+      ]
+    }
+  ]
+}
